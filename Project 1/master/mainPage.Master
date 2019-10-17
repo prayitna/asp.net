@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mainPage.Master.cs" Inherits="Project_1.master.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        body{
+            background-color:antiquewhite;
+        }
+        .menu-kiri{
+            float: left;
+            width: 120px;
+        }
+        .menu-kanan{            
+            width:700px;
+        }
+        .header {
+            width:820px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header"></div>
+        <div class="menu-kiri">
+<asp:HyperLink ID="hlHome" NavigateUrl="~/databind/default.aspx" runat="server">Home</asp:HyperLink><br />
+            <asp:HyperLink ID="hlKontrol1" NavigateUrl="~/dasar/kontrol1.aspx" runat="server">Kontrol Dasar</asp:HyperLink>  <br />
+            <asp:HyperLink ID="hlKontrol2" NavigateUrl="~/dasar/kontrol2.aspx" runat="server">Kontrol Login</asp:HyperLink>  <br />
+            <asp:HyperLink ID="hlKontrol3" NavigateUrl="~/dasar/kontrol3.aspx" runat="server">Kontrol Validasi</asp:HyperLink>  <br />
+            <asp:HyperLink ID="hlKontrol4" NavigateUrl="~/dasar/kontrol4.aspx" runat="server">Kontrol Kalender</asp:HyperLink>  <br />
+            <asp:HyperLink ID="hlKontrol5" NavigateUrl="~/dasar/kontrol5.aspx" runat="server">Kontrol TabSheet</asp:HyperLink>  <br />
+            <asp:HyperLink ID="hlKontrol6" NavigateUrl="~/dasar/kontrol6.aspx" runat="server">Kontrol Step</asp:HyperLink>  <br />
+            <asp:HyperLink ID="hlKontrol7" NavigateUrl="~/dasar/kontrol7.aspx" runat="server">Kontrol FileUpload</asp:HyperLink>  <br />
+            <br />
+             <br />
+             <asp:HyperLink ID="hlLogin" NavigateUrl="~/databind/login.aspx" runat="server">Login</asp:HyperLink>
+            <br />
+             <asp:HyperLink ID="hllistUnit" NavigateUrl="~/databind/listUnit.aspx" runat="server">List Unit</asp:HyperLink><br />
+             <asp:HyperLink ID="hleditUnit" NavigateUrl="~/databind/editUnit.aspx" runat="server">Edit Unit</asp:HyperLink><br />
+             <asp:HyperLink ID="hlcariUser" NavigateUrl="~/databind/cariUser.aspx" runat="server">Cari User</asp:HyperLink><br />
+             <asp:HyperLink ID="hllistUser" NavigateUrl="~/databind/listUser.aspx" runat="server">List User</asp:HyperLink><br />
+             <asp:HyperLink ID="hladdUSer" NavigateUrl="~/databind/addUser.aspx" runat="server">Add User</asp:HyperLink>
+            <br />
+            <br />
+            <asp:HyperLink ID="hlChart1" NavigateUrl="~/chart/chart1.aspx" runat="server">Chart Batang</asp:HyperLink><br />
+            <asp:HyperLink ID="hlChart2" NavigateUrl="~/chart/chart2.aspx" runat="server">Chart Pie</asp:HyperLink><br />
+            <asp:HyperLink ID="hlChart3" NavigateUrl="~/chart/chart3.aspx" runat="server">Chart Garis</asp:HyperLink><br />
+ 
+            
+        </div>
+        <div class="menu-kanan">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

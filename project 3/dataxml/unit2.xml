@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tr_unit>
+  <unit>
+    <unit_id>100</unit_id>
+    <unit_name>Direksi</unit_name>
+  </unit>
+  <unit>
+    <unit_id>200</unit_id>
+    <unit_name>HRD</unit_name>    
+  </unit>
+  <unit>
+    <unit_id>300</unit_id>
+    <unit_name>Marketing</unit_name>
+  </unit>
+  <unit>
+    <unit_id>400</unit_id>
+    <unit_name>Mekanik</unit_name>
+  </unit>
+  <unit>
+    <unit_id>500</unit_id>
+    <unit_name>Staff</unit_name>
+  </unit>
+</tr_unit>

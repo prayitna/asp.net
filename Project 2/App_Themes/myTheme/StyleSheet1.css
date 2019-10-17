@@ -1,0 +1,10 @@
+﻿body {
+}
+.kiri{
+    
+    width: 300px;
+}
+.kanan{
+    float: right;
+    width: 300px;
+}
