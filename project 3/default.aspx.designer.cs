@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace project_3.dataxml
+namespace project_3
 {
 
 
@@ -24,30 +24,30 @@ namespace project_3.dataxml
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// smWF1 control.
+        /// sdsWEB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SiteMapPath smWF1;
+        protected global::System.Web.UI.WebControls.SiteMapDataSource sdsWEB;
 
         /// <summary>
-        /// xdsUnit control.
+        /// mnu1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xdsUnit;
+        protected global::System.Web.UI.WebControls.Menu mnu1;
 
         /// <summary>
-        /// GridView1 control.
+        /// tv1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.TreeView tv1;
     }
 }

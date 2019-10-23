@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:SiteMapPath ID="smWF1" runat="server"></asp:SiteMapPath>
             <asp:XmlDataSource ID="xdsUnit" runat="server" DataFile="~/dataxml/unit.xml"></asp:XmlDataSource>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="xdsUnit">
                 <Columns>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <product>
+    <description>Cardigan Sweater</description>
+    <catalog_item>
+      <item_number>QWZ5671</item_number>
+      <gender>Man</gender>
+      <price>100000</price>
+      <stock>20</stock>
+    </catalog_item>
+  </product>
+  <product>
+    <description>Man Jumper</description>
+    <catalog_item>
+      <item_number>QWZ4671</item_number>
+      <gender>Man</gender>
+      <price>125000</price>
+      <stock>12</stock>
+    </catalog_item>
+  </product>
+  <product>
+    <description>Man Gamis</description>
+    <catalog_item>
+      <item_number>QWZ4672</item_number>
+      <gender>Man</gender>
+      <price>96000</price>
+      <stock>50</stock>
+    </catalog_item>
+  </product>
+
+</catalog>

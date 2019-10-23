@@ -80,6 +80,10 @@
     <Content Include="Icons\edit.ico" />
     <Content Include="Icons\insert.ico" />
     <Content Include="Icons\Play.ico" />
+    <Content Include="tampilan\DataGrid.aspx" />
+    <Content Include="tampilan\DetailsView.aspx" />
+    <Content Include="tampilan\ListView.aspx" />
+    <Content Include="tampilan\DataList.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +144,34 @@
       <DependentUpon>mainPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tampilan\DataGrid.aspx.cs">
+      <DependentUpon>DataGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tampilan\DataGrid.aspx.designer.cs">
+      <DependentUpon>DataGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tampilan\DetailsView.aspx.cs">
+      <DependentUpon>DetailsView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tampilan\DetailsView.aspx.designer.cs">
+      <DependentUpon>DetailsView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tampilan\ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tampilan\ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tampilan\DataList.aspx.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tampilan\DataList.aspx.designer.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="master\mainPage.Master" />

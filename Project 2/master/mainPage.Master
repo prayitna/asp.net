@@ -27,7 +27,7 @@
     <form id="form1" runat="server">
         <div class="header"></div>
         <div class="menu-kiri">
-
+            
         </div>
         <div class="menu-kanan">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
