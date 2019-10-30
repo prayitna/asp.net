@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kurikulum>
+  <matakuliah>
+    <kode>UNI100</kode>
+    <nama>Pendidikan Agama Islam 1</nama>
+    <sks>2</sks>
+    <dosen>Junaidi</dosen>
+    <prodi>100</prodi>
+    <kurikulum>2017</kurikulum>
+  </matakuliah>
+  <matakuliah>
+    <kode>UNI200</kode>
+    <nama>Bahasa Inggris</nama>
+    <sks>2</sks>
+    <dosen>Novitasari</dosen>
+    <prodi>100</prodi>
+    <kurikulum>2017</kurikulum>
+  </matakuliah>
+  <matakuliah>
+    <kode>UNI300</kode>
+    <nama>Pendidikan Pancasila</nama>
+    <sks>3</sks>
+    <dosen>Fantoni</dosen>
+    <prodi>100</prodi>
+    <kurikulum>2016</kurikulum>
+  </matakuliah>
+  <matakuliah>
+    <kode>UNI200</kode>
+    <nama>Bahasa Inggris</nama>
+    <sks>3</sks>
+    <dosen>Novitasari</dosen>
+    <prodi>100</prodi>
+    <kurikulum>2016</kurikulum>
+  </matakuliah>  
+</kurikulum>

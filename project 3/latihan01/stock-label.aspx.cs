@@ -25,16 +25,16 @@ namespace project_3.latihan
                 switch (reader.NodeType)
                 {
                     case XmlNodeType.Element:
-                        Label1.Text += "<" + reader.Name;
+                        Label1.Text += "&lt" + reader.Name;
                         while (reader.MoveToNextAttribute()) // baca atribute jika ada
                             Label1.Text += " " + reader.Name + "='" + reader.Value + "'";
-                        Label1.Text += ">";
+                        Label1.Text += "&gt";
                         break;
                     case XmlNodeType.Text:
                         Label1.Text += reader.Value;
                         break;
                     case XmlNodeType.EndElement:
-                        Label1.Text += "</" + reader.Name + ">";
+                        Label1.Text += "&lt/" + reader.Name + "&gt";
                         break;
                 }
                 

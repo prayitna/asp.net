@@ -67,51 +67,114 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dataxml\books.xml" />
+    <Content Include="dataxml\style2.xslt" />
+    <Content Include="dataxml\style.xslt" />
     <Content Include="dataxml\unit2.xml" />
     <Content Include="dataxml\user.xml" />
     <Content Include="dataxml\unit.xml" />
-    <Content Include="dataxml\WebForm2.aspx" />
+    <Content Include="dataxml\latihan2.aspx" />
     <Content Include="dataxml\unit2.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="latihan1\books.xml" />
-    <Content Include="latihan2\data.xml" />
-    <Content Include="latihan2\stock-file.aspx" />
-    <Content Include="latihan2\stock-label.aspx" />
-    <Content Include="latihan2\stock.xml" />
+    <Content Include="dataxml\kurikulum.xml" />
+    <Content Include="dataxml\latihan3.aspx" />
+    <Content Include="dataxml\kurikulum.xslt" />
+    <Content Include="dataxml\cd.xml" />
+    <Content Include="dataxml\latihan4.aspx" />
+    <Content Include="dataxml\cd1.xslt" />
+    <Content Include="dataxml\cd2.xslt" />
+    <Content Include="dataxml\books.xslt" />
+    <Content Include="dataxml\latihan5.aspx" />
+    <Content Include="latihan02\books.xml" />
+    <Content Include="latihan01\data.xml" />
+    <Content Include="latihan01\stock-file.aspx" />
+    <Content Include="latihan01\stock-label.aspx" />
+    <Content Include="latihan01\stock.xml" />
+    <Content Include="latihan02\books.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="latihan02\WebForm1.aspx" />
+    <Content Include="latihan03\db2xml.aspx" />
+    <Content Include="latihan03\tr_unit.xml" />
+    <Content Include="latihan03\tr_unit.xslt" />
+    <Content Include="latihan03\style.xslt" />
+    <Content Include="latihan03\gridview.aspx" />
     <Content Include="Web.config" />
-    <Content Include="dataxml\WebForm1.aspx" />
+    <Content Include="dataxml\latihan1.aspx" />
     <Content Include="default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dataxml\WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="dataxml\latihan2.aspx.cs">
+      <DependentUpon>latihan2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="dataxml\WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="dataxml\latihan2.aspx.designer.cs">
+      <DependentUpon>latihan2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="latihan2\stock-file.aspx.cs">
+    <Compile Include="dataxml\latihan3.aspx.cs">
+      <DependentUpon>latihan3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dataxml\latihan3.aspx.designer.cs">
+      <DependentUpon>latihan3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dataxml\latihan4.aspx.cs">
+      <DependentUpon>latihan4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dataxml\latihan4.aspx.designer.cs">
+      <DependentUpon>latihan4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dataxml\latihan5.aspx.cs">
+      <DependentUpon>latihan5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dataxml\latihan5.aspx.designer.cs">
+      <DependentUpon>latihan5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan01\stock-file.aspx.cs">
       <DependentUpon>stock-file.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="latihan2\stock-file.aspx.designer.cs">
+    <Compile Include="latihan01\stock-file.aspx.designer.cs">
       <DependentUpon>stock-file.aspx</DependentUpon>
     </Compile>
-    <Compile Include="latihan2\stock-label.aspx.cs">
+    <Compile Include="latihan01\stock-label.aspx.cs">
       <DependentUpon>stock-label.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="latihan2\stock-label.aspx.designer.cs">
+    <Compile Include="latihan01\stock-label.aspx.designer.cs">
       <DependentUpon>stock-label.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan02\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan02\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan03\db2xml.aspx.cs">
+      <DependentUpon>db2xml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan03\db2xml.aspx.designer.cs">
+      <DependentUpon>db2xml.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan03\gridview.aspx.cs">
+      <DependentUpon>gridview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan03\gridview.aspx.designer.cs">
+      <DependentUpon>gridview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="dataxml\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="dataxml\latihan1.aspx.cs">
+      <DependentUpon>latihan1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="dataxml\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="dataxml\latihan1.aspx.designer.cs">
+      <DependentUpon>latihan1.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -131,6 +194,7 @@
     </None>
     <Content Include="Web.sitemap" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

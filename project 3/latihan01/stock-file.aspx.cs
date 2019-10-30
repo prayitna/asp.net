@@ -21,9 +21,11 @@ namespace project_3.latihan2
             string id = "";
             string desc = "";
             string gender = "";
-            float price = 0;
+            double price = 0;
             int stock = 0;
-            int index;
+            int  index = 0;
+            Label1.Text = "";
+            string dataXML = "<data>\n";
             // Baca URL
             string urlStock = "http://localhost/stock.xml";
             XmlTextReader reader = new XmlTextReader(urlStock);
@@ -64,18 +66,41 @@ namespace project_3.latihan2
                         }
                         break;
                     case XmlNodeType.Text:
-
+                        switch (index)
+                        {
+                            case 1:
+                                desc = reader.Value;
+                                break;
+                            case 2:
+                                id = reader.Value;
+                                break;
+                            case 3:
+                                gender = reader.Value;
+                                break;
+                            case 4:
+                                price =  Convert.ToDouble( reader.Value);
+                                break;
+                            case 5:
+                                stock = Convert.ToInt32( reader.Value);
+                                break;
+                        }
                         break;
                     case XmlNodeType.EndElement:
-
+                        if (index == 5)
+                        {
+                            dataXML += "<item id=\"" +  id + "\" desc=\"" + desc + "\" stok=\"" + stock + "\" price=\"" + price+"\"/>\n";
+                            Label1.Text += "<br>ID: " + id + " : " + desc + " Stok:" + stock + " Price:" + price;
+                            index = 0;
+                        }
                         break;
                 }
             }
 
-            
+
             // Simpan ke file
-            string aDataFile = MapPath("~/latihan2/data.xml");
-            File.WriteAllText(aDataFile, reader.ToString());
+            dataXML += "</data>";
+            string aDataFile = MapPath("~/latihan01/data.xml");
+            File.WriteAllText(aDataFile, dataXML);
             
 
         }
