@@ -5,8 +5,9 @@
   <xsl:template match="/">
     
       <xsl:value-of select="kurikulum/matakuliah/kode"/>
-      <xsl:value-of select="kurikulum/matakuliahnama"/>
+      <xsl:value-of select="kurikulum/matakuliah/nama"/>
     
   </xsl:template>  
+  
   
 </xsl:stylesheet>
