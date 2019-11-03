@@ -86,6 +86,18 @@
     <Content Include="dataxml\cd2.xslt" />
     <Content Include="dataxml\books.xslt" />
     <Content Include="dataxml\latihan5.aspx" />
+    <Content Include="latihan-xml\books.xml" />
+    <Content Include="latihan-xml\latihan1.aspx" />
+    <Content Include="latihan-xml\latihan3.aspx" />
+    <Content Include="latihan-xml\rates.xml" />
+    <Content Include="latihan-xml\stock.xml" />
+    <Content Include="latihan-xml\style.xslt" />
+    <Content Include="latihan-xml\unit.xml" />
+    <Content Include="latihan-xml\latihan2.aspx" />
+    <Content Include="latihan-xml\unit2.xml" />
+    <Content Include="latihan-xml\latihan4.aspx" />
+    <Content Include="latihan-xml\latihan5.aspx" />
+    <Content Include="latihan-xml\latihan5-hasil.aspx" />
     <Content Include="latihan02\books.xml" />
     <Content Include="latihan01\data.xml" />
     <Content Include="latihan01\stock-file.aspx" />
@@ -132,6 +144,48 @@
     </Compile>
     <Compile Include="dataxml\latihan5.aspx.designer.cs">
       <DependentUpon>latihan5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan-xml\latihan1.aspx.cs">
+      <DependentUpon>latihan1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan-xml\latihan1.aspx.designer.cs">
+      <DependentUpon>latihan1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan-xml\latihan2.aspx.cs">
+      <DependentUpon>latihan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan-xml\latihan2.aspx.designer.cs">
+      <DependentUpon>latihan2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan-xml\latihan3.aspx.cs">
+      <DependentUpon>latihan3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan-xml\latihan3.aspx.designer.cs">
+      <DependentUpon>latihan3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan-xml\latihan4.aspx.cs">
+      <DependentUpon>latihan4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan-xml\latihan4.aspx.designer.cs">
+      <DependentUpon>latihan4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan-xml\latihan5.aspx.cs">
+      <DependentUpon>latihan5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan-xml\latihan5.aspx.designer.cs">
+      <DependentUpon>latihan5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="latihan-xml\latihan5-hasil.aspx.cs">
+      <DependentUpon>latihan5-hasil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="latihan-xml\latihan5-hasil.aspx.designer.cs">
+      <DependentUpon>latihan5-hasil.aspx</DependentUpon>
     </Compile>
     <Compile Include="latihan01\stock-file.aspx.cs">
       <DependentUpon>stock-file.aspx</DependentUpon>
@@ -186,6 +240,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
